@@ -1,0 +1,27 @@
+              body {
+                        margin: 0px;
+                        padding: 0px;
+                }
+
+                .round{
+                        margin: 50px;
+                        width: 200px;
+                        height: 200px;
+                        position: relative;     
+                        border: 1px solid #999;
+                }
+
+                input {
+                        position: absolute;
+                        top: 60px; left: 10px;
+                        font-size: 40px; text-align: center;
+                        width: 100px;
+                        border: none; background: none;
+                        outline: none;
+
+                }
+                .round canvas{
+                        position: absolute;
+                        top: 0; left: 0; right: 0; bottom: 0;
+                }
+
